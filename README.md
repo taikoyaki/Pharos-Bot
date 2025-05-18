@@ -97,3 +97,5 @@ This software is provided "as is" without warranties. Use at your own risk. The 
 ## License 📄
 
 MIT License - See LICENSE file for details
+
+Last updated:
