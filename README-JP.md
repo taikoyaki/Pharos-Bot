@@ -29,8 +29,8 @@
 1. リポジトリをクローン：
 
    ```bash
-   git clone https://github.com/vikitoshi/Pharos-Auto-Bot.git
-   cd Pharos-Auto-Bot
+   git clone https://github.com/taikoyaki/Pharos-Bot.git
+   cd Pharos-Bot
    ```
 
 2. 依存関係をインストール：
