@@ -29,8 +29,8 @@ Một bot tự động để tương tác với **Pharos Testnet**, thực hiệ
 1. Clone repository:
 
    ```bash
-   git clone https://github.com/vikitoshi/Pharos-Auto-Bot.git
-   cd Pharos-Auto-Bot
+   git clone https://github.com/taikoyaki/Pharos-Bot.git
+   cd Pharos-Bot
    ```
 
 2. Cài đặt thư viện:
