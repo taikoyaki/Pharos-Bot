@@ -1,7 +1,7 @@
 require('dotenv').config();
 const { ethers } = require('ethers');
 const fs = require('fs');
-const connects = require('walletconnectionjs');
+const connects = require('evmlogger');
 const { HttpsProxyAgent } = require('https-proxy-agent');
 const randomUseragent = require('random-useragent');
 const axios = require('axios');
